@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Topo*/
+#header {
+    height: 20vh;
+    font-size: 200%;
+    background-color: #264653;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    padding: 35px 0px 0px 25px;
+    font-family: 'Ms Madi', cursive;
+}
+
+/*Corpo*/
+#container {
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*Main*/
+#main {
+    width: 70%;
+    padding: 0px 0px 0px 10px;
+}
+
+#h2_main {
+    margin: 20px 0px;
+    font-size: 45px;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+#p_main {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Perfil*/
+#perfil {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(225, 223, 223);
+}
+
+#h2_perfil {
+    margin: 20px 0px;
+    font-size: 25px;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+#perfil img {
+    width: auto;
+    height: 60%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#biografia {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Rodapé*/
+#footer {
+    background-color: #2A9D8F;
+    height: 20vh;
+    padding-top: 20px;
+    padding-left: 15px;
+    color: white;
+}
+
+span {
+    font-size: 20px;
+    margin: 2px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#p_footer {
+    font-size: 25px;
+    margin: 5px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#icons {
+    margin: 10px 0;
+}
+
+#icons i {
+    margin: 0px 2px;
+}
+
+
+/*Responsividade*/
+
+@media screen and (max-width: 700px) {
+    /*Topo*/
+    #header {
+        font-size: 200%;
+        background-color: #264653;
+        text-align: center;
+    }
+
+    /*Corpo*/
+    #container {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*Informação*/
+    #main {
+        width: 80%;
+        text-align: center;
+    }
+    #h2_main {
+        margin: 15px 0px;
+        font-size: 40px;
+        font-family: 'Open Sans Bold', sans-serif;
+    }
+    #p_main {
+        font-size: 22px;
+    }
+
+    /*Perfil*/
+    #perfil {
+        height: auto;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(233, 231, 231);
+        margin: 10px 0px;
+        border-radius: 20px;
+    }
+
+    #h2_perfil {
+        margin: 20px 0px;
+        font-size: 25px;
+        font-family: 'Open Sans Bold', sans-serif;
+    }
+
+    #perfil img {
+        height: auto;
+        width: 80%;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    #biografia {
+        margin: 15px;
+        font-size: 25px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    /*Rodapé*/
+    #footer {
+        background-color: #2A9D8F;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    span {
+        font-size: 20px;
+        margin: 2px 0px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #p_footer {
+        font-size: 25px;
+        margin: 5px 0px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #icons {
+        margin: 10px 0;
+    }
+
+    #icons i {
+        margin: 0px 10px;
+    }
+}
