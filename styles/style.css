@@ -36,11 +36,13 @@ h1 {
     margin: 20px 0px;
     font-size: 45px;
     font-family: 'RocknRoll One', sans-serif;
+    text-decoration:underline;
 }
 
 #p_main {
     font-size: 22px;
     font-family: 'Open Sans', sans-serif;
+    text-shadow: 2px 2px 2px grey;
 }
 
 /*Perfil*/
@@ -51,6 +53,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     background-color: rgb(225, 223, 223);
+    text-align: center;
 }
 
 #h2_perfil {
@@ -64,6 +67,9 @@ h1 {
     height: 60%;
     border-radius: 50%;
     margin-bottom: 10px;
+    box-shadow: 2px 2px 20px black;
+    background-color: greenyellow;
+    border: 2px double greenyellow;
 }
 
 #biografia {
@@ -189,12 +195,12 @@ span {
 
     #p_footer {
         font-size: 1.5rem;
-        margin: 5px 0px;
+        padding-bottom: 2px;
         font-family: 'Open Sans', sans-serif;
     }
 
     #icons {
-        margin: 20px 0;
+        padding-bottom: 2px;
     }
 
     #icons i {
